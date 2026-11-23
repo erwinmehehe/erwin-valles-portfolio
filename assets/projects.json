@@ -1,0 +1,975 @@
+[
+  {
+    "id": "maddens-lawyers",
+    "name": "Maddens Lawyers",
+    "market": "Ballarat & Warrnambool",
+    "region": "Victoria",
+    "country": "AU",
+    "industry": "Legal services",
+    "segment": "Legal",
+    "domain": "maddenslawyers.com.au",
+    "page": 4,
+    "featured": true,
+    "headline": "Regional legal rankings in Ballarat and Warrnambool.",
+    "summary": "Maddens is #1 organically for “personal injury lawyers ballarat,” “compensation lawyers ballarat” and “dog bite lawyer ballarat.” The record also includes organic and local positions for Warrnambool.",
+    "takeaway": "The location and the legal service both shape what people type into Google.",
+    "organic": [
+      [
+        "personal injury lawyers ballarat",
+        1,
+        170
+      ],
+      [
+        "compensation lawyers ballarat",
+        1,
+        170
+      ],
+      [
+        "lawyers warrnambool",
+        2,
+        170
+      ],
+      [
+        "insurance claim lawyers",
+        6,
+        880
+      ],
+      [
+        "will dispute lawyers melbourne",
+        4,
+        880
+      ],
+      [
+        "dog bite lawyer ballarat",
+        1,
+        110
+      ]
+    ],
+    "local": [
+      [
+        "personal injury lawyers warrnambool",
+        1,
+        90
+      ],
+      [
+        "warrnambool lawyers",
+        1,
+        90
+      ],
+      [
+        "lawyers warrnambool victoria",
+        1,
+        170
+      ]
+    ],
+    "cardText": "#1 for injury and compensation lawyers in Ballarat.",
+    "featureLine": "#1 for injury and compensation lawyers in Ballarat.",
+    "context": "The sample includes compensation and personal injury searches in Ballarat, plus lawyer and local search terms in Warrnambool.",
+    "insight": "The location and the legal service both shape what people type into Google.",
+    "highlight": "personal injury lawyers ballarat",
+    "category": "Legal",
+    "accent": "#526f78",
+    "highlightRank": 1,
+    "highlightVolume": 170
+  },
+  {
+    "id": "iv-league-drips",
+    "name": "IV League Drips",
+    "market": "Sydney",
+    "region": "New South Wales",
+    "country": "AU",
+    "industry": "Wellness services",
+    "segment": "Healthcare",
+    "domain": "ivleaguedrips.com",
+    "page": 5,
+    "featured": true,
+    "headline": "IV therapy and NAD infusion searches in Sydney.",
+    "summary": "“IV therapy sydney,” “iv drips sydney,” “nad infusion sydney,” “drip iv sydney” and “nad drip” all appear at #1 organically. Local results include vitamin infusion and IV infusion searches.",
+    "takeaway": "The site is visible for several everyday names for the same broad treatment category.",
+    "organic": [
+      [
+        "iv therapy sydney",
+        1,
+        390
+      ],
+      [
+        "iv drips sydney",
+        1,
+        260
+      ],
+      [
+        "drip iv sydney",
+        1,
+        210
+      ],
+      [
+        "nad infusion sydney",
+        1,
+        140
+      ],
+      [
+        "nad drip",
+        1,
+        320
+      ],
+      [
+        "nad infusion therapy",
+        3,
+        720
+      ]
+    ],
+    "local": [
+      [
+        "iv infusion sydney",
+        1,
+        170
+      ],
+      [
+        "vitamin infusion sydney",
+        1,
+        110
+      ],
+      [
+        "iv infusion near me",
+        1,
+        590
+      ]
+    ],
+    "cardText": "Five #1 organic terms across IV therapy, drips and NAD.",
+    "featureLine": "Five #1 organic terms across IV therapy, drips and NAD.",
+    "context": "The recorded keywords include IV therapy, IV drips, NAD infusions and related local search terms.",
+    "insight": "The site is visible for several everyday names for the same broad treatment category.",
+    "highlight": "iv therapy sydney",
+    "category": "Healthcare",
+    "accent": "#5c8a80",
+    "highlightRank": 1,
+    "highlightVolume": 390
+  },
+  {
+    "id": "glass-tinting-solutions",
+    "name": "Glass Tinting Solutions",
+    "market": "Brisbane",
+    "region": "Queensland",
+    "country": "AU",
+    "industry": "Home & automotive",
+    "segment": "Home services",
+    "domain": "glasstintingsolutions.com.au",
+    "page": 6,
+    "featured": true,
+    "headline": "Vehicle, home and commercial tinting in Brisbane.",
+    "summary": "“Glass tinting brisbane” appears at #1 organically. The site also appears for auto, office and commercial tinting terms, with #1 local positions for selected commercial and automotive searches.",
+    "takeaway": "The most useful distinction is between the three customer needs, not just the umbrella term “tinting.”",
+    "organic": [
+      [
+        "glass tinting brisbane",
+        1,
+        170
+      ],
+      [
+        "window tinting brisbane",
+        5,
+        1300
+      ],
+      [
+        "auto window tinting brisbane",
+        7,
+        1300
+      ],
+      [
+        "office window tinting brisbane",
+        5,
+        210
+      ],
+      [
+        "commercial window tinting brisbane",
+        6,
+        170
+      ],
+      [
+        "window film brisbane",
+        3,
+        170
+      ]
+    ],
+    "local": [
+      [
+        "glass tinting brisbane",
+        1,
+        170
+      ],
+      [
+        "commercial window tinting brisbane",
+        1,
+        170
+      ],
+      [
+        "automotive window tinting brisbane",
+        1,
+        170
+      ],
+      [
+        "home window tinting brisbane",
+        2,
+        390
+      ]
+    ],
+    "cardText": "Brisbane tinting searches for cars, homes and offices.",
+    "featureLine": "Brisbane tinting searches for cars, homes and offices.",
+    "context": "The website appears for automotive, residential, office and commercial tinting searches, including selected local results.",
+    "insight": "The most useful distinction is between the three customer needs, not just the umbrella term “tinting.”",
+    "highlight": "glass tinting brisbane",
+    "category": "Home & trades",
+    "accent": "#7c8066",
+    "highlightRank": 1,
+    "highlightVolume": 170
+  },
+  {
+    "id": "the-smile-spot",
+    "name": "The Smile Spot",
+    "market": "Sydney",
+    "region": "New South Wales",
+    "country": "AU",
+    "industry": "Dental practice",
+    "segment": "Healthcare",
+    "domain": "thesmilespot.com.au",
+    "page": 7,
+    "featured": true,
+    "headline": "Dentist and dental treatment searches across Sydney.",
+    "summary": "The Smile Spot appears at #1 for “dentist in strathfield” and “dental implant concord.” Its local results include four #1 Dulwich Hill terms, from general dentist searches to teeth whitening.",
+    "takeaway": "The selected results reach beyond one suburb or one dental service.",
+    "organic": [
+      [
+        "dentist in strathfield",
+        1,
+        390
+      ],
+      [
+        "dental implant concord",
+        1,
+        140
+      ],
+      [
+        "dental bonding",
+        6,
+        1600
+      ],
+      [
+        "dentist dulwich hill",
+        3,
+        390
+      ],
+      [
+        "wisdom teeth removal wetherill park",
+        2,
+        210
+      ]
+    ],
+    "local": [
+      [
+        "dentist dulwich hill",
+        1,
+        390
+      ],
+      [
+        "dentists dulwich hill",
+        1,
+        260
+      ],
+      [
+        "dulwich hill dentist",
+        1,
+        170
+      ],
+      [
+        "teeth whitening dulwich hill",
+        1,
+        90
+      ]
+    ],
+    "cardText": "A dentist search in Strathfield. An implant search in Concord.",
+    "featureLine": "A dentist search in Strathfield. An implant search in Concord.",
+    "context": "The positions cover dentist searches in Strathfield and Dulwich Hill, dental implants in Concord and teeth whitening in Dulwich Hill.",
+    "insight": "The selected results reach beyond one suburb or one dental service.",
+    "highlight": "dentist in strathfield",
+    "category": "Healthcare",
+    "accent": "#6a9b8b",
+    "highlightRank": 1,
+    "highlightVolume": 390
+  },
+  {
+    "id": "sunlover-heating",
+    "name": "Sunlover Heating",
+    "market": "Melbourne / Australia",
+    "region": "Victoria",
+    "country": "AU",
+    "industry": "Pool heating",
+    "segment": "Home services",
+    "domain": "sunloverheating.com.au",
+    "page": 8,
+    "featured": true,
+    "headline": "Pool heating services and equipment searches.",
+    "summary": "“Pool covers melbourne,” “gas heater for swimming pool” and “pool solar controller” are each #1 organically. Melbourne pool-heating searches also appear in both the organic and local results.",
+    "takeaway": "Service queries and product queries are both visible in the same portfolio entry.",
+    "organic": [
+      [
+        "pool covers melbourne",
+        1,
+        320
+      ],
+      [
+        "pool heating melbourne",
+        2,
+        320
+      ],
+      [
+        "solar pool heaters",
+        2,
+        320
+      ],
+      [
+        "gas pool heaters",
+        2,
+        260
+      ],
+      [
+        "gas heater for swimming pool",
+        1,
+        390
+      ],
+      [
+        "pool solar controller",
+        1,
+        210
+      ]
+    ],
+    "local": [
+      [
+        "pool heating melbourne",
+        1,
+        320
+      ],
+      [
+        "pool solar heating melbourne",
+        1,
+        70
+      ],
+      [
+        "solar pool heating melbourne",
+        1,
+        140
+      ],
+      [
+        "swimming pool heating melbourne",
+        1,
+        90
+      ]
+    ],
+    "cardText": "Pool covers, gas heaters and controllers each appear at #1.",
+    "featureLine": "Pool covers, gas heaters and controllers each appear at #1.",
+    "context": "The sample covers Melbourne pool-heating terms and equipment-specific searches for covers, gas heaters and controllers.",
+    "insight": "Service queries and product queries are both visible in the same portfolio entry.",
+    "highlight": "pool covers melbourne",
+    "category": "Home & trades",
+    "accent": "#608d79",
+    "highlightRank": 1,
+    "highlightVolume": 320
+  },
+  {
+    "id": "lifestyle-orthodontics",
+    "name": "Lifestyle Orthodontics",
+    "market": "Sydney",
+    "region": "New South Wales",
+    "country": "AU",
+    "industry": "Orthodontics",
+    "segment": "Healthcare",
+    "domain": "lifestyleorthodontics.com.au",
+    "page": 9,
+    "headline": "Orthodontic treatment searches in Woollahra and Bronte.",
+    "summary": "“Orthodontist woollahra,” “invisalign woollahra” and “ceramic braces bronte” are all #1 organically. The Woollahra orthodontist term also appears at #1 in a local result.",
+    "takeaway": "Treatment names and suburb names carry equal weight in this group.",
+    "organic": [
+      [
+        "orthodontist woollahra",
+        1,
+        110
+      ],
+      [
+        "ceramic braces bronte",
+        1,
+        70
+      ],
+      [
+        "invisalign woollahra",
+        1,
+        70
+      ]
+    ],
+    "local": [
+      [
+        "orthodontist woollahra",
+        1,
+        110
+      ]
+    ],
+    "cardText": "Woollahra and Bronte searches for orthodontists, Invisalign and braces.",
+    "featureLine": "Woollahra and Bronte searches for orthodontists, Invisalign and braces.",
+    "context": "Rankings include searches for local orthodontists, Invisalign in Woollahra and ceramic braces in Bronte.",
+    "insight": "Treatment names and suburb names carry equal weight in this group.",
+    "highlight": "orthodontist woollahra",
+    "category": "Healthcare",
+    "accent": "#668f99",
+    "highlightRank": 1,
+    "highlightVolume": 110
+  },
+  {
+    "id": "holdsworth-house-dental",
+    "name": "Holdsworth House Dental",
+    "market": "Darlinghurst",
+    "region": "New South Wales",
+    "country": "AU",
+    "industry": "Dental practice",
+    "segment": "Healthcare",
+    "domain": "holdsworthhousedental.com.au",
+    "page": 9,
+    "headline": "Veneers, crowns and dentist searches in Darlinghurst.",
+    "summary": "Holdsworth House Dental is #1 for “veneers darlinghurst” and “dental crowns darlinghurst.” The broader “dentist darlinghurst” term appears at #3.",
+    "takeaway": "Two treatment-led #1 positions sit alongside a broader local dentist search.",
+    "organic": [
+      [
+        "veneers darlinghurst",
+        1,
+        90
+      ],
+      [
+        "dental crowns darlinghurst",
+        1,
+        170
+      ],
+      [
+        "dentist darlinghurst",
+        3,
+        320
+      ]
+    ],
+    "local": [],
+    "cardText": "Veneers and crowns lead the Darlinghurst searches.",
+    "featureLine": "Veneers and crowns lead the Darlinghurst searches.",
+    "context": "The portfolio records two first-place treatment queries and a third-place position for the broader Darlinghurst dentist term.",
+    "insight": "Two treatment-led #1 positions sit alongside a broader local dentist search.",
+    "highlight": "veneers darlinghurst",
+    "category": "Healthcare",
+    "accent": "#527e83",
+    "highlightRank": 1,
+    "highlightVolume": 90
+  },
+  {
+    "id": "newstead-smiles",
+    "name": "Newstead Smiles",
+    "market": "Brisbane / Newstead",
+    "region": "Queensland",
+    "country": "AU",
+    "industry": "Dental practice",
+    "segment": "Healthcare",
+    "domain": "newsteadsmiles.com.au",
+    "page": 9,
+    "headline": "Dental and teeth whitening searches in Brisbane.",
+    "summary": "The practice appears at #2 for “teeth whitening newstead,” #4 for “newstead dentist” and #8 for “teeth whitening brisbane.” A wisdom-teeth search is also #1 in the selected local results.",
+    "takeaway": "The local and citywide terms are worth judging separately.",
+    "organic": [
+      [
+        "teeth whitening newstead",
+        2,
+        110
+      ],
+      [
+        "newstead dentist",
+        4,
+        320
+      ],
+      [
+        "teeth whitening brisbane",
+        8,
+        1900
+      ]
+    ],
+    "local": [
+      [
+        "wisdom teeth removal newstead",
+        1,
+        null
+      ]
+    ],
+    "cardText": "Teeth whitening in Newstead, plus wider Brisbane searches.",
+    "featureLine": "Teeth whitening in Newstead, plus wider Brisbane searches.",
+    "context": "The sample includes Newstead dentist and whitening terms, a broader Brisbane whitening query and a local wisdom-teeth result.",
+    "insight": "The local and citywide terms are worth judging separately.",
+    "highlight": "teeth whitening newstead",
+    "category": "Healthcare",
+    "accent": "#678e7c",
+    "highlightRank": 2,
+    "highlightVolume": 110
+  },
+  {
+    "id": "royal-parade-dental",
+    "name": "Royal Parade Dental Clinic",
+    "market": "Reservoir",
+    "region": "Victoria",
+    "country": "AU",
+    "industry": "Dental practice",
+    "segment": "Healthcare",
+    "domain": "royalparadedentalclinic.com.au",
+    "page": 9,
+    "headline": "Treatment-specific dental searches in Reservoir.",
+    "summary": "“Dental bridges reservoir” is #1, “emergency dentist reservoir” is #3 and “dental implants reservoir” is #4 organically. The local sample also includes “invisalign reservoir” at #1.",
+    "takeaway": "A local practice can appear for several treatment decisions, not just a suburb name.",
+    "organic": [
+      [
+        "dental bridges reservoir",
+        1,
+        260
+      ],
+      [
+        "emergency dentist reservoir",
+        3,
+        390
+      ],
+      [
+        "dental implants reservoir",
+        4,
+        320
+      ]
+    ],
+    "local": [
+      [
+        "invisalign reservoir",
+        1,
+        null
+      ]
+    ],
+    "cardText": "Bridges, emergency dentistry and implants in Reservoir.",
+    "featureLine": "Bridges, emergency dentistry and implants in Reservoir.",
+    "context": "The positions cover bridges, emergency dentistry and implants, with an additional local result for Invisalign.",
+    "insight": "A local practice can appear for several treatment decisions, not just a suburb name.",
+    "highlight": "dental bridges reservoir",
+    "category": "Healthcare",
+    "accent": "#789285",
+    "highlightRank": 1,
+    "highlightVolume": 260
+  },
+  {
+    "id": "specialist-endo-sydney",
+    "name": "Specialist Endo Sydney",
+    "market": "Sydney",
+    "region": "New South Wales",
+    "country": "AU",
+    "industry": "Specialist dentistry",
+    "segment": "Healthcare",
+    "domain": "specialistendosydney.com.au",
+    "page": 10,
+    "headline": "Endodontist and root canal specialist searches in Sydney.",
+    "summary": "“Sydney endodontists” and “specialist endodontics” are both at #2 organically. “Root canal specialist sydney” appears at #4, with another endodontist term at #5.",
+    "takeaway": "The specialist terms, rather than a broad “dentist” keyword, define this entry.",
+    "organic": [
+      [
+        "sydney endodontists",
+        2,
+        390
+      ],
+      [
+        "specialist endodontics",
+        2,
+        880
+      ],
+      [
+        "root canal specialist sydney",
+        4,
+        110
+      ],
+      [
+        "endodontist sydney nsw",
+        5,
+        260
+      ]
+    ],
+    "local": [],
+    "cardText": "Endodontists, root canals and specialist searches in Sydney.",
+    "featureLine": "Endodontists, root canals and specialist searches in Sydney.",
+    "context": "The recorded queries include endodontists, specialist endodontics and root canal specialists across Sydney.",
+    "insight": "The specialist terms, rather than a broad “dentist” keyword, define this entry.",
+    "highlight": "sydney endodontists",
+    "category": "Healthcare",
+    "accent": "#597982",
+    "highlightRank": 2,
+    "highlightVolume": 390
+  },
+  {
+    "id": "kiama-dental-specialists",
+    "name": "Kiama Dental Specialists",
+    "market": "Kiama / Wollongong",
+    "region": "New South Wales",
+    "country": "AU",
+    "industry": "Specialist dentistry",
+    "segment": "Healthcare",
+    "domain": "kiamadentalspecialists.com.au",
+    "page": 10,
+    "headline": "Gum graft and specialist dental searches around Kiama.",
+    "summary": "“Gum graft before and after” is #1. The site also appears for “gum graft kiama” at #2 and “dental implants west wollongong” at #1, with a #1 local result for the Kiama gum-graft term.",
+    "takeaway": "Educational questions and nearby specialist searches both feature.",
+    "organic": [
+      [
+        "gum graft before and after",
+        1,
+        170
+      ],
+      [
+        "gum graft kiama",
+        2,
+        70
+      ],
+      [
+        "periodontist wollongong",
+        7,
+        110
+      ],
+      [
+        "dental implants west wollongong",
+        1,
+        70
+      ]
+    ],
+    "local": [
+      [
+        "gum graft kiama",
+        1,
+        70
+      ]
+    ],
+    "cardText": "Gum-graft questions and specialist dentistry around Kiama.",
+    "featureLine": "Gum-graft questions and specialist dentistry around Kiama.",
+    "context": "The sample includes gum graft information, a Kiama service query and dental implants in the Wollongong area.",
+    "insight": "Educational questions and nearby specialist searches both feature.",
+    "highlight": "gum graft before and after",
+    "category": "Healthcare",
+    "accent": "#799587",
+    "highlightRank": 1,
+    "highlightVolume": 170
+  },
+  {
+    "id": "lumina-dental",
+    "name": "Lumina Dental",
+    "market": "Sydney",
+    "region": "New South Wales",
+    "country": "AU",
+    "industry": "Dental & education",
+    "segment": "Healthcare",
+    "domain": "luminadental.com.au",
+    "page": 10,
+    "headline": "Dental education and treatment searches in Sydney.",
+    "summary": "“Best whitening toothpaste” appears at #1 organically. The site also appears for “invisalign cost,” “teeth whitening sydney” and “dentist burwood.”",
+    "takeaway": "The strongest result in this sample is an educational query.",
+    "organic": [
+      [
+        "best whitening toothpaste",
+        1,
+        1600
+      ],
+      [
+        "invisalign cost",
+        7,
+        6600
+      ],
+      [
+        "teeth whitening sydney",
+        6,
+        1900
+      ],
+      [
+        "dentist burwood",
+        4,
+        1300
+      ]
+    ],
+    "local": [],
+    "cardText": "Patient education alongside Sydney treatment searches.",
+    "featureLine": "Patient education alongside Sydney treatment searches.",
+    "context": "The leading result is an educational toothpaste query; the other positions cover Invisalign costs, whitening and dentist searches.",
+    "insight": "The strongest result in this sample is an educational query.",
+    "highlight": "best whitening toothpaste",
+    "category": "Healthcare",
+    "accent": "#618f85",
+    "highlightRank": 1,
+    "highlightVolume": 1600
+  },
+  {
+    "id": "kate-hill-flowers",
+    "name": "Kate Hill Flowers",
+    "market": "Melbourne",
+    "region": "Victoria",
+    "country": "AU",
+    "industry": "Floristry",
+    "segment": "Retail",
+    "domain": "katehillflowers.com.au",
+    "page": 11,
+    "headline": "Wedding flowers and local florist searches in Melbourne.",
+    "summary": "Kate Hill Flowers appears at #1 for “wedding bouquets melbourne,” “bridal bouquets melbourne” and “southbank florist.” “Florist south melbourne” appears at #4.",
+    "takeaway": "The site appears for occasion-led and location-led searches.",
+    "organic": [
+      [
+        "wedding bouquets melbourne",
+        1,
+        320
+      ],
+      [
+        "bridal bouquets melbourne",
+        1,
+        210
+      ],
+      [
+        "southbank florist",
+        1,
+        210
+      ],
+      [
+        "florist south melbourne",
+        4,
+        720
+      ]
+    ],
+    "local": [],
+    "cardText": "Wedding bouquets across Melbourne; florist terms in Southbank.",
+    "featureLine": "Wedding bouquets across Melbourne; florist terms in Southbank.",
+    "context": "The rankings include wedding bouquets, bridal bouquets, Southbank florist searches and South Melbourne florist searches.",
+    "insight": "The site appears for occasion-led and location-led searches.",
+    "highlight": "wedding bouquets melbourne",
+    "category": "Retail",
+    "accent": "#9c806f",
+    "highlightRank": 1,
+    "highlightVolume": 320
+  },
+  {
+    "id": "mad-miller",
+    "name": "Mad Miller",
+    "market": "Toowoomba",
+    "region": "Queensland",
+    "country": "AU",
+    "industry": "Cleaning services",
+    "segment": "Home services",
+    "domain": "madmiller.com.au",
+    "page": 11,
+    "headline": "Residential, bond and commercial cleaning in Toowoomba.",
+    "summary": "Mad Miller appears at #3 for “bond cleaners in toowoomba,” #4 for “commercial cleaning toowoomba” and #6 for house-cleaning terms. A local result for “house cleaners toowoomba” is #1.",
+    "takeaway": "The recorded terms show the breadth of work without rolling it into one generic “cleaners” keyword.",
+    "organic": [
+      [
+        "cleaners toowoomba",
+        6,
+        260
+      ],
+      [
+        "house cleaners toowoomba",
+        6,
+        210
+      ],
+      [
+        "commercial cleaning toowoomba",
+        4,
+        110
+      ],
+      [
+        "bond cleaners in toowoomba",
+        3,
+        70
+      ]
+    ],
+    "local": [
+      [
+        "house cleaners toowoomba",
+        1,
+        210
+      ]
+    ],
+    "cardText": "Bond, house and commercial cleaning in Toowoomba.",
+    "featureLine": "Bond, house and commercial cleaning in Toowoomba.",
+    "context": "The sample covers end-of-lease cleaning, house cleaning and commercial cleaning, alongside one first-place local result.",
+    "insight": "The recorded terms show the breadth of work without rolling it into one generic “cleaners” keyword.",
+    "highlight": "bond cleaners in toowoomba",
+    "category": "Home & trades",
+    "accent": "#7b8e81",
+    "highlightRank": 3,
+    "highlightVolume": 70
+  },
+  {
+    "id": "mlr-plastering",
+    "name": "MLR Plastering & Interiors",
+    "market": "Brisbane",
+    "region": "Queensland",
+    "country": "AU",
+    "industry": "Commercial plastering",
+    "segment": "Home services",
+    "domain": "mlrplasteringinteriors.com.au",
+    "page": 11,
+    "headline": "Commercial plastering searches in Brisbane.",
+    "summary": "“Commercial plastering brisbane” and “commercial plasterers brisbane” both sit at #1 organically. The broader “plastering brisbane” and “plasterers brisbane” searches also appear.",
+    "takeaway": "The commercial intent is more precise than a general trade search.",
+    "organic": [
+      [
+        "commercial plastering brisbane",
+        1,
+        90
+      ],
+      [
+        "commercial plasterers brisbane",
+        1,
+        110
+      ],
+      [
+        "plastering brisbane",
+        8,
+        110
+      ],
+      [
+        "plasterers brisbane",
+        10,
+        170
+      ]
+    ],
+    "local": [
+      [
+        "commercial plastering brisbane",
+        1,
+        90
+      ]
+    ],
+    "cardText": "Commercial plastering terms at #1 in Brisbane.",
+    "featureLine": "Commercial plastering terms at #1 in Brisbane.",
+    "context": "The strongest recorded positions are first-place results for commercial plastering and commercial plasterers in Brisbane.",
+    "insight": "The commercial intent is more precise than a general trade search.",
+    "highlight": "commercial plastering brisbane",
+    "category": "Home & trades",
+    "accent": "#647d6d",
+    "highlightRank": 1,
+    "highlightVolume": 90
+  },
+  {
+    "id": "growers-choice-seeds",
+    "name": "Growers Choice Seeds",
+    "market": "United States",
+    "region": "National",
+    "country": "US",
+    "industry": "eCommerce",
+    "segment": "eCommerce",
+    "domain": "growerschoiceseeds.us",
+    "page": 12,
+    "headline": "US product category and seed variety searches.",
+    "summary": "The recorded positions include #1 for “panama red seeds” and “autoflower seeds for sale,” #2 for “white widow seeds” and #3 for a broader purchase-related term.",
+    "takeaway": "Specific names and wider category terms create different paths into an online catalogue.",
+    "organic": [
+      [
+        "white widow seeds",
+        2,
+        1000
+      ],
+      [
+        "buy marijuana seeds",
+        3,
+        1600
+      ],
+      [
+        "panama red seeds",
+        1,
+        590
+      ],
+      [
+        "autoflower seeds for sale",
+        1,
+        480
+      ],
+      [
+        "sativa dominant strains",
+        6,
+        2400
+      ],
+      [
+        "cannabis seeds usa",
+        7,
+        1900
+      ],
+      [
+        "weed seeds for sale",
+        8,
+        1600
+      ]
+    ],
+    "local": [],
+    "cardText": "Seed varieties and category terms in US organic search.",
+    "featureLine": "Seed varieties and category terms in US organic search.",
+    "context": "The sample covers broad online product categories and specific seed varieties in the US market.",
+    "insight": "Specific names and wider category terms create different paths into an online catalogue.",
+    "highlight": "panama red seeds",
+    "category": "eCommerce",
+    "accent": "#617b61",
+    "highlightRank": 1,
+    "highlightVolume": 590
+  },
+  {
+    "id": "pacific-seed-bank",
+    "name": "Pacific Seed Bank",
+    "market": "United States",
+    "region": "National",
+    "country": "US",
+    "industry": "eCommerce",
+    "segment": "eCommerce",
+    "domain": "pacificseedbank.com",
+    "page": 12,
+    "headline": "US seed bank and product variety searches.",
+    "summary": "“Cannabis seed bank” appears at #3 organically, as does “jelly cake strain.” The sample also includes other category and named-variety searches in the US.",
+    "takeaway": "This site competes for broad discovery and specific product terms.",
+    "organic": [
+      [
+        "cannabis seed bank",
+        3,
+        1900
+      ],
+      [
+        "weed seeds",
+        8,
+        12100
+      ],
+      [
+        "cannabis seeds",
+        9,
+        14800
+      ],
+      [
+        "feminised pot seeds",
+        5,
+        9900
+      ],
+      [
+        "acapulco gold",
+        4,
+        8100
+      ],
+      [
+        "jelly cake strain",
+        3,
+        2400
+      ],
+      [
+        "feminized seeds",
+        7,
+        3600
+      ]
+    ],
+    "local": [],
+    "cardText": "US category searches alongside named product varieties.",
+    "featureLine": "US category searches alongside named product varieties.",
+    "context": "The keyword set includes category terms, seed-bank searches and individual named varieties.",
+    "insight": "This site competes for broad discovery and specific product terms.",
+    "highlight": "cannabis seed bank",
+    "category": "eCommerce",
+    "accent": "#65856e",
+    "highlightRank": 3,
+    "highlightVolume": 1900
+  }
+]
