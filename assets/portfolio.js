@@ -14,13 +14,16 @@
     rail.classList.toggle('is-open', open); shade.classList.toggle('is-open', open);
     menu.setAttribute('aria-expanded', String(open)); menu.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
     rail.inert = mobile.matches && !open;
+    document.querySelector('main').inert = open;
+    document.querySelector('.mobile-top').inert = open;
     document.body.style.overflow = open ? 'hidden' : '';
-    if (open) rail.querySelector('a')?.focus(); else if (restore) menu.focus();
+    if (open) rail.querySelector('.drawer-close')?.focus(); else if (restore) menu.focus();
   }
   if (rail) {
     drawer(false, false);
     menu.addEventListener('click', () => drawer(!rail.classList.contains('is-open')));
     shade.addEventListener('click', () => drawer(false));
+    rail.querySelector('.drawer-close').addEventListener('click', () => drawer(false));
     mobile.addEventListener('change', () => drawer(false, false));
     rail.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => { if (mobile.matches) { drawer(false, false); const target = document.querySelector(a.hash); if (target) { target.setAttribute('tabindex', '-1'); target.focus({preventScroll:true}); } } }));
     document.addEventListener('keydown', e => {
@@ -35,8 +38,8 @@
   const cards = [...document.querySelectorAll('[data-archive]')];
   const filters = [...document.querySelectorAll('[data-filter]')];
   const search = document.getElementById('search'); let category = 'All';
-  function filter() { const q = search.value.trim().toLowerCase(); let shown = 0; cards.forEach(c => { c.hidden = !(category === 'All' || c.dataset.category === category) || !c.dataset.search.includes(q); if (!c.hidden) shown++; }); document.getElementById('result-count').textContent = `${shown} project${shown === 1 ? '' : 's'}`; document.getElementById('empty').hidden = shown > 0; }
-  if (search) { filters.forEach(b => b.addEventListener('click', () => { category = b.dataset.filter; filters.forEach(x => x.setAttribute('aria-pressed', String(x === b))); filter(); })); search.addEventListener('input', filter); filter(); }
+  function filter() { const q = search.value.trim().toLowerCase(); let shown = 0; cards.forEach(c => { c.hidden = !(category === 'All' || c.dataset.category === category) || !c.dataset.search.includes(q); if (!c.hidden) shown++; }); document.getElementById('result-count').textContent = `${shown} project${shown === 1 ? '' : 's'}`; document.getElementById('empty').hidden = shown > 0; document.getElementById('reset-projects').hidden = !q && category === 'All'; }
+  if (search) { filters.forEach(b => b.addEventListener('click', () => { category = b.dataset.filter; filters.forEach(x => x.setAttribute('aria-pressed', String(x === b))); filter(); })); search.addEventListener('input', filter); document.getElementById('reset-projects').addEventListener('click', () => { search.value = ''; category = 'All'; filters.forEach(x => x.setAttribute('aria-pressed', String(x.dataset.filter === 'All'))); filter(); search.focus(); }); filter(); }
   const dialog = document.getElementById('detail-dialog'); const holder = document.getElementById('detail-holder'); let opener;
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function table(rows, title) { if (!rows.length) return ''; return `<section class="detail__small"><h3>${title}</h3><table><thead><tr><th scope="col">Search term</th><th scope="col">Position</th></tr></thead><tbody>${rows.map(r => `<tr><td>${esc(r[0])}</td><td>#${r[1]}</td></tr>`).join('')}</tbody></table></section>`; }
