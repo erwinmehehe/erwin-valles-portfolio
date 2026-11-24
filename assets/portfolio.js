@@ -38,9 +38,21 @@
   const cards = [...document.querySelectorAll('[data-archive]')];
   const filters = [...document.querySelectorAll('[data-filter]')];
   const search = document.getElementById('search'); let category = 'All';
-  function filter() { const q = search.value.trim().toLowerCase(); let shown = 0; cards.forEach(c => { c.hidden = !(category === 'All' || c.dataset.category === category) || !c.dataset.search.includes(q); if (!c.hidden) shown++; }); document.getElementById('result-count').textContent = `${shown} project${shown === 1 ? '' : 's'}`; document.getElementById('empty').hidden = shown > 0; document.getElementById('reset-projects').hidden = !q && category === 'All'; }
+  // Keep the project selection when returning from an individual project page.
+  if (search && location.hash === '#more') {
+    try {
+      const saved = JSON.parse(sessionStorage.getItem('erwin-portfolio-browse') || 'null');
+      if (saved && filters.some(b => b.dataset.filter === saved.category)) {
+        category = saved.category;
+        if (typeof saved.query === 'string') search.value = saved.query;
+        filters.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.filter === category)));
+      }
+    } catch {}
+  }
+
+  function filter() { const q = search.value.trim().toLowerCase(); let shown = 0; cards.forEach(c => { c.hidden = !(category === 'All' || c.dataset.category === category) || !c.dataset.search.includes(q); if (!c.hidden) shown++; }); document.getElementById('result-count').textContent = `${shown} project${shown === 1 ? '' : 's'}`; document.getElementById('empty').hidden = shown > 0; document.getElementById('reset-projects').hidden = !q && category === 'All'; try { sessionStorage.setItem('erwin-portfolio-browse', JSON.stringify({category, query:search.value})); } catch {} }
   if (search) { filters.forEach(b => b.addEventListener('click', () => { category = b.dataset.filter; filters.forEach(x => x.setAttribute('aria-pressed', String(x === b))); filter(); })); search.addEventListener('input', filter); document.getElementById('reset-projects').addEventListener('click', () => { search.value = ''; category = 'All'; filters.forEach(x => x.setAttribute('aria-pressed', String(x.dataset.filter === 'All'))); filter(); search.focus(); }); filter(); }
-  const dialog = document.getElementById('detail-dialog'); const holder = document.getElementById('detail-holder'); let opener;
+  const dialog = document.getElementById('detail-dialog'); const holder = document.getElementById('detail-holder'); let opener; let previousOverflow = '';
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function table(rows, title) { if (!rows.length) return ''; return `<section class="detail__small"><h3>${title}</h3><table><thead><tr><th scope="col">Search term</th><th scope="col">Position</th></tr></thead><tbody>${rows.map(r => `<tr><td>${esc(r[0])}</td><td>#${r[1]}</td></tr>`).join('')}</tbody></table></section>`; }
   document.querySelectorAll('[data-open-project]').forEach(a => a.addEventListener('click', e => {
@@ -48,8 +60,8 @@
     const p = window.ERWIN_PROJECTS.find(p => p.id === a.dataset.openProject); if (!p) return;
     e.preventDefault(); opener = a;
     holder.innerHTML = `<div class="detail__body"><div class="detail__top"><div><p class="detail__context">${esc(p.industry)} · ${esc(p.market)}</p><h2 id="detail-title">${esc(p.name)}</h2><p class="detail__market">${esc(p.domain)}</p></div><button class="detail__close" type="button" aria-label="Close project">×</button></div><p class="detail__summary">${esc(p.summary)}</p><div class="detail__tabular">${table(p.organic,'Organic search positions')}${table(p.local,'Local search positions')}</div><p class="detail__note">November 2026 snapshot. Rankings can change; these figures do not represent traffic or revenue.</p><div class="detail__footer"><a class="detail__link" href="case-studies/${esc(p.id)}/index.html">View project page</a></div></div>`;
-    holder.querySelector('button').addEventListener('click', () => dialog.close()); dialog.showModal();
+    holder.querySelector('button').addEventListener('click', () => dialog.close()); previousOverflow = document.body.style.overflow; document.body.style.overflow = 'hidden'; dialog.showModal();
   }));
   dialog?.addEventListener('click', e => { if (e.target === dialog) { const r = dialog.getBoundingClientRect(); if(e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) dialog.close(); } });
-  dialog?.addEventListener('close', () => opener?.focus());
+  dialog?.addEventListener('close', () => { document.body.style.overflow = previousOverflow; opener?.focus(); });
 })();
